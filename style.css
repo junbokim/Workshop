@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+li,
+a,
+button {
+    color: white;
+    text-decoration: none;
+}
+
+.navbar {
+    box-sizing: border-box;
+    background: darkgrey;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 50px;
+}
+
+.navbar_links {
+    list-style: none;
+}
+
+.navbar_links li {
+    display: inline;
+    padding: 0px 20px;
+}
+
+.navbar_links li a {
+    transition: all 0.3s ease 0s;
+}
+
+.navbar_links li a:hover {
+    color: lightblue;
+}
+
+button {
+    padding: 9px 25px;
+    background-color: rgba(0, 136, 169, 1);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+button:hover {
+    background-color: rgba(0, 136, 169, 0.5);
+}
